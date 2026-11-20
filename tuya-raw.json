@@ -1,0 +1,110 @@
+{
+    "result": [
+        {
+            "active_time": 1794654330,
+            "biz_type": 0,
+            "category": "cz",
+            "create_time": 1634885096,
+            "icon": "smart/icon/ay1560212249260P1Twc/453ba400152308bc828c7f0dda185587.jpg",
+            "id": "486441603c6105ca8323",
+            "ip": "14.139.207.210",
+            "lat": "0",
+            "local_key": "s+Yop'Tz?Z/iYyos",
+            "lon": "0",
+            "model": "DDS238-2 WIFI",
+            "name": "Tomzn energy meter",
+            "online": true,
+            "owner_id": "165681752",
+            "product_id": "sw9asyjj8j44frjl",
+            "product_name": "meter",
+            "status": [
+                {
+                    "code": "switch_1",
+                    "value": true
+                },
+                {
+                    "code": "countdown_1",
+                    "value": 0
+                },
+                {
+                    "code": "cur_current",
+                    "value": 0
+                },
+                {
+                    "code": "cur_power",
+                    "value": 0
+                },
+                {
+                    "code": "cur_voltage",
+                    "value": 2294
+                }
+            ],
+            "sub": false,
+            "time_zone": "+05:30",
+            "uid": "in1794406502940BX1Bw",
+            "update_time": 1795087310,
+            "uuid": "486441603c6105ca8323",
+            "mapping": {
+                "1": {
+                    "code": "switch_1",
+                    "type": "Boolean",
+                    "values": {}
+                },
+                "9": {
+                    "code": "countdown_1",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "s",
+                        "min": 0,
+                        "max": 86400,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "18": {
+                    "code": "cur_current",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "mA",
+                        "min": 0,
+                        "max": 100000,
+                        "scale": 0,
+                        "step": 1
+                    }
+                },
+                "19": {
+                    "code": "cur_power",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "W",
+                        "min": 0,
+                        "max": 500000,
+                        "scale": 1,
+                        "step": 1
+                    }
+                },
+                "20": {
+                    "code": "cur_voltage",
+                    "type": "Integer",
+                    "values": {
+                        "unit": "V",
+                        "min": 0,
+                        "max": 5000,
+                        "scale": 1,
+                        "step": 1
+                    }
+                }
+            }
+        }
+    ],
+    "success": true,
+    "t": 1795089030369,
+    "tid": "6b6e12cbe40f11f1845d5e5d4752a09a",
+    "file": {
+        "name": "tuya-raw.json",
+        "description": "Full raw list of Tuya devices.",
+        "account": "rya4vqw778jeyvuvpdty",
+        "date": "2026-11-19T17:20:30.779867",
+        "tinytuya": "1.21.1"
+    }
+}

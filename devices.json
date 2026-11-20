@@ -1,0 +1,70 @@
+[
+    {
+        "name": "Tomzn energy meter",
+        "id": "486441603c6105ca8323",
+        "key": "s+Yop'Tz?Z/iYyos",
+        "mac": "3c:61:05:ca:83:23",
+        "uuid": "486441603c6105ca8323",
+        "sn": "1000184700000D",
+        "category": "cz",
+        "product_name": "meter",
+        "product_id": "sw9asyjj8j44frjl",
+        "biz_type": 0,
+        "model": "DDS238-2 WIFI",
+        "sub": false,
+        "icon": "https://images.tuyain.com/smart/icon/ay1560212249260P1Twc/453ba400152308bc828c7f0dda185587.jpg",
+        "mapping": {
+            "1": {
+                "code": "switch_1",
+                "type": "Boolean",
+                "values": {}
+            },
+            "9": {
+                "code": "countdown_1",
+                "type": "Integer",
+                "values": {
+                    "unit": "s",
+                    "min": 0,
+                    "max": 86400,
+                    "scale": 0,
+                    "step": 1
+                }
+            },
+            "18": {
+                "code": "cur_current",
+                "type": "Integer",
+                "values": {
+                    "unit": "mA",
+                    "min": 0,
+                    "max": 100000,
+                    "scale": 0,
+                    "step": 1
+                }
+            },
+            "19": {
+                "code": "cur_power",
+                "type": "Integer",
+                "values": {
+                    "unit": "W",
+                    "min": 0,
+                    "max": 500000,
+                    "scale": 1,
+                    "step": 1
+                }
+            },
+            "20": {
+                "code": "cur_voltage",
+                "type": "Integer",
+                "values": {
+                    "unit": "V",
+                    "min": 0,
+                    "max": 5000,
+                    "scale": 1,
+                    "step": 1
+                }
+            }
+        },
+        "ip": "10.130.1.210",
+        "version": "3.3"
+    }
+]

@@ -1,0 +1,35 @@
+{
+    "timestamp": 1795089039.8052435,
+    "devices": [
+        {
+            "id": "486441603c6105ca8323",
+            "ip": "10.130.1.210",
+            "active": 2,
+            "ability": 0,
+            "mode": 0,
+            "encrypt": true,
+            "productKey": "sw9asyjj8j44frjl",
+            "name": "Tomzn energy meter",
+            "key": "s+Yop'Tz?Z/iYyos",
+            "mac": "3c:61:05:ca:83:23",
+            "token": "",
+            "wf_cfg": "",
+            "dev_type": "default",
+            "err": "",
+            "type": "default",
+            "dps": {
+                "devId": "486441603c6105ca8323",
+                "dps": {
+                    "1": true,
+                    "9": 0,
+                    "18": 0,
+                    "19": 0,
+                    "20": 2294,
+                    "101": 177
+                }
+            },
+            "origin": "broadcast",
+            "ver": "3.3"
+        }
+    ]
+}
